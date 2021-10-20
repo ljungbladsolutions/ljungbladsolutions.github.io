@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher&#39;s Blog</title>
+    <link>https://ljungbladsolutions.github.io/</link>
+    <description>Recent content on Christopher&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Oct 2021 08:09:22 +0200</lastBuildDate><atom:link href="https://ljungbladsolutions.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Something interesting</title>
+      <link>https://ljungbladsolutions.github.io/posts/myfirstpost/</link>
+      <pubDate>Wed, 20 Oct 2021 08:09:22 +0200</pubDate>
+      
+      <guid>https://ljungbladsolutions.github.io/posts/myfirstpost/</guid>
+      <description>First thing
+public static void main(String[] args) { System.out.println(&amp;#34;test&amp;#34;); } </description>
+    </item>
+    
+  </channel>
+</rss>
