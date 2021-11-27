@@ -2,17 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ljungbladsolutions.github.io/about/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
+    <loc>https://ljungbladsolutions.github.io/tags/blogging/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
+    <loc>https://ljungbladsolutions.github.io/categories/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
+    <loc>https://ljungbladsolutions.github.io/categories/development/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
+    <loc>https://ljungbladsolutions.github.io/tags/hugo/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
     <loc>https://ljungbladsolutions.github.io/</loc>
-    <lastmod>2021-11-08T08:09:22+02:00</lastmod>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
+    <loc>https://ljungbladsolutions.github.io/posts/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
+    <loc>https://ljungbladsolutions.github.io/tags/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
+  </url><url>
+    <loc>https://ljungbladsolutions.github.io/posts/editing-hugo-blog/</loc>
+    <lastmod>2021-11-25T08:09:22+02:00</lastmod>
   </url><url>
     <loc>https://ljungbladsolutions.github.io/posts/hosting-hugo-blog/</loc>
     <lastmod>2021-11-08T08:09:22+02:00</lastmod>
   </url><url>
-    <loc>https://ljungbladsolutions.github.io/posts/</loc>
-    <lastmod>2021-11-08T08:09:22+02:00</lastmod>
-  </url><url>
-    <loc>https://ljungbladsolutions.github.io/categories/</loc>
-  </url><url>
-    <loc>https://ljungbladsolutions.github.io/tags/</loc>
+    <loc>https://ljungbladsolutions.github.io/archives/</loc>
   </url>
 </urlset>
