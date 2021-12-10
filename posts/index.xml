@@ -38,17 +38,5 @@ I decided to use Hugo which is a static site generator that makes it easy to gen
 To have your site deployed on a static hosting service like Netlify or GitHub Pages.</description>
     </item>
     
-    <item>
-      <title>Be Efficient With Chrome Bookmarks</title>
-      <link>https://ljungbladsolutions.github.io/posts/be-efficient-with-bookmarks/</link>
-      <pubDate>Fri, 22 Oct 2021 08:11:40 +0200</pubDate>
-      
-      <guid>https://ljungbladsolutions.github.io/posts/be-efficient-with-bookmarks/</guid>
-      <description>How often do open Chrome and search for something to find an already known site. Usually we do add a bookmark in Chrome
-to make it easy to revisit frequently visited pages.
-Improve productivity by using chrome bookmarks
-Structure bookmarks Use aliases  Go to chrome://settings/searchEngines Find the Add button Enter Search engine which is just a description of that url, then the keywork (the alias), and then the url. There is also a feature where it&amp;rsquo;s possible to add in parameters for the url.</description>
-    </item>
-    
   </channel>
 </rss>
