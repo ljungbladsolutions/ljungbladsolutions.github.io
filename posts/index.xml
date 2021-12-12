@@ -10,20 +10,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Nov 2021 08:09:22 +0200</lastBuildDate><atom:link href="https://ljungbladsolutions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 08:11:40 +0200</lastBuildDate><atom:link href="https://ljungbladsolutions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Be Efficient With Chrome Bookmarks</title>
+      <link>https://ljungbladsolutions.github.io/posts/be-efficient-with-bookmarks/</link>
+      <pubDate>Sun, 12 Dec 2021 08:11:40 +0200</pubDate>
+      
+      <guid>https://ljungbladsolutions.github.io/posts/be-efficient-with-bookmarks/</guid>
+      <description>How often do open Chrome and search for something to find an already known site. Usually you add a bookmark to frequently visited pages. But there is more to having bookmarks, and using bookmarks effectively.
+Here are some tips on how you can increase your productivity using your chrome bookmarks more effectively.
+1. Categorise, prioritise and visualise bookmarks in Chrome  Use folders to categorise your bookmarks in. For example, have your playing guitar links in one folder and your Recipies in another.</description>
+    </item>
+    
     <item>
       <title>Working with hugo</title>
       <link>https://ljungbladsolutions.github.io/posts/editing-hugo-blog/</link>
       <pubDate>Thu, 25 Nov 2021 08:09:22 +0200</pubDate>
       
       <guid>https://ljungbladsolutions.github.io/posts/editing-hugo-blog/</guid>
-      <description>Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
+      <description>Frequently used commands to run your hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes to repositories.  Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
 If you have not already Hugo setup, go to my previous post found here
-Run Hugo locally Go to your blog directory, where the content is and run:
-hugo server
-Add content (a new post) To add a new post, run:
-hugo new posts/intro-to-java-17.md
-This will create a file intro-to-java-17.md in your post directory, having a menu.</description>
+Run Hugo locally Go to your blog directory, where the content is and run:</description>
     </item>
     
     <item>

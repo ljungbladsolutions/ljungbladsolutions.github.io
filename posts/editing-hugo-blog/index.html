@@ -8,13 +8,9 @@
 <title>Working with hugo | Ljungblad Solutions</title>
 
 <meta name="keywords" content="blogging, hugo" />
-<meta name="description" content="Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
+<meta name="description" content="Frequently used commands to run your hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes to repositories.  Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
 If you have not already Hugo setup, go to my previous post found here
-Run Hugo locally Go to your blog directory, where the content is and run:
-hugo server
-Add content (a new post) To add a new post, run:
-hugo new posts/intro-to-java-17.md
-This will create a file intro-to-java-17.md in your post directory, having a menu.">
+Run Hugo locally Go to your blog directory, where the content is and run:">
 <meta name="author" content="Christopher Ljungblad">
 <link rel="canonical" href="https://ljungbladsolutions.github.io/posts/editing-hugo-blog/" />
 <link href="/assets/css/stylesheet.min.746a86b58bb2b052b5e4df8216510494f04f81e62c08d626150c26c69ca929da.css" integrity="sha256-dGqGtYuysFK15N&#43;CFlEElPBPgeYsCNYmFQwmxpypKdo=" rel="preload stylesheet"
@@ -42,13 +38,9 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 <meta property="og:title" content="Working with hugo" />
-<meta property="og:description" content="Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
+<meta property="og:description" content="Frequently used commands to run your hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes to repositories.  Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
 If you have not already Hugo setup, go to my previous post found here
-Run Hugo locally Go to your blog directory, where the content is and run:
-hugo server
-Add content (a new post) To add a new post, run:
-hugo new posts/intro-to-java-17.md
-This will create a file intro-to-java-17.md in your post directory, having a menu." />
+Run Hugo locally Go to your blog directory, where the content is and run:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ljungbladsolutions.github.io/posts/editing-hugo-blog/" /><meta property="og:image" content="https://ljungbladsolutions.github.io/papermod-cover.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-11-25T08:09:22&#43;02:00" />
@@ -58,13 +50,9 @@ This will create a file intro-to-java-17.md in your post directory, having a men
 <meta name="twitter:image" content="https://ljungbladsolutions.github.io/papermod-cover.png"/>
 
 <meta name="twitter:title" content="Working with hugo"/>
-<meta name="twitter:description" content="Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
+<meta name="twitter:description" content="Frequently used commands to run your hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes to repositories.  Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
 If you have not already Hugo setup, go to my previous post found here
-Run Hugo locally Go to your blog directory, where the content is and run:
-hugo server
-Add content (a new post) To add a new post, run:
-hugo new posts/intro-to-java-17.md
-This will create a file intro-to-java-17.md in your post directory, having a menu."/>
+Run Hugo locally Go to your blog directory, where the content is and run:"/>
 
 
 <script type="application/ld+json">
@@ -93,12 +81,12 @@ This will create a file intro-to-java-17.md in your post directory, having a men
   "@type": "BlogPosting",
   "headline": "Working with hugo",
   "name": "Working with hugo",
-  "description": "Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.\nIf you have not already Hugo setup, go to my previous post found here\nRun Hugo locally Go to your blog directory, where the content is and run:\nhugo server\nAdd content (a new post) To add a new post, run:\nhugo new posts/intro-to-java-17.md\nThis will create a file intro-to-java-17.md in your post directory, having a menu.",
+  "description": "Frequently used commands to run your hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes to repositories.  Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.\nIf you have not already Hugo setup, go to my previous post found here\nRun Hugo locally Go to your blog directory, where the content is and run:",
   "keywords": [
     "blogging", "hugo"
   ],
-  "articleBody": "Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.\nIf you have not already Hugo setup, go to my previous post found here\nRun Hugo locally Go to your blog directory, where the content is and run:\nhugo server\nAdd content (a new post) To add a new post, run:\nhugo new posts/intro-to-java-17.md\nThis will create a file intro-to-java-17.md in your post directory, having a menu.\n--- title: \"Intro to java 17\" date: 2021-11-25T08:09:22+02:00 draft: true defaultTheme: light ShowToc: true --- Here I also added:\ndefaultTheme: light //will show this page in light theme ShowToc: true //will show a Table of content (every headline will be added in the Toc)\nAdd a menu I choose to manually add the menu in the config.yml file something like this:\nmenu: main: - identifier: about name: About title: About me url: /about/ weight: -100 - identifier: archives name: Archive title: blog section url: /archives/ weight: -300 - identifier: Categories name: Categories title: Categories url: /categories/ weight: -200 There are many ways you can add a menu, read more about it here\nAdding a categories and labels to your posts In Hugo this is the chapter about taxanomies, in other words how to group and order your content.\nRead more on hugo site about taxanomies.\n1. How to add taxanomies (categories and tags) There are two taxanomies that Hugo will automatically create for you, namely categories and tags. So there is no need to add these in the config.yml. I did it anyway, just to show that these are my taxanomies\nand to make it easier to add others later, so in my config.yml I added:\ntaxonomies: category: categories tag: tags 2. How to add category and tags to a post For example, this post has the category=development and two tags, blogging and hugo. This was added like this:\n--- title: \"Working with hugo\" date: 2021-11-25T08:09:22+02:00 draft: false categories: [development] tags: [blogging,hugo] ShowToc: true --- This will show up in the /categories. Which was also added to the menu.\nConfig file setup example This is an example of the config.yml, this one is pretty much copied from the PaperMod example and modified to fit my page:\nbaseURL: https://ljungbladsolutions.github.io/posts languageCode: en-us title: Ljungblad Solutions theme: PaperMod5 defaultTheme: light menu: main: - identifier: about name: About title: About me url: /about/ weight: -100 - identifier: archives name: Archive title: blog section url: /archives/ weight: -300 - identifier: Categories name: Categories title: Categories url: /categories/ weight: -200 params: env: production # to enable google analytics, opengraph, twitter-cards and schema. description: \"A blog about Software development, architecture and other things.\" author: Christopher Ljungblad defaultTheme: auto # disableThemeToggle: true ShowShareButtons: true ShowReadingTime: true # disableSpecial1stPost: true displayFullLangName: true ShowPostNavLinks: true ShowBreadCrumbs: true ShowCodeCopyButtons: true ShowToc: true #Show table of content # comments: false images: [\"papermod-cover.png\"] profileMode: enabled: true title: Christopher Ljungblad imageUrl: \"/images/christopher.png\" imageTitle: my image # imageWidth: 120 # imageHeight: 120 buttons: - name: Archive url: archives - name: Categories url: categories homeInfoParams: Title: \"Christopher Ljungblad\" Content: socialIcons: - name: github url: \"https://github.com/ljungbladsolutions/\" - name: LinkedIn url: \"https://www.linkedin.com/in/ljungblad/\" taxonomies: tag: \"tags\" category: \"categories\" Add raw html to your post Sometimes it’s necessary to use html. This can be done using the {{}}, for example:\n{{}} This is my html {{}} For this to work, there has to be a file:\nlayouts/shortcodes/rawhtml.html containing:\n{{ .Inner }} Example page for this theme Here is an example for this theme, find inspiration here on gitHub.\nReferences:\nhttps://gohugo.io/templates/homepage/\nhttps://guides.github.com/features/mastering-markdown/\nhttps://gohugo.io/getting-started/configuration/\n",
-  "wordCount" : "596",
+  "articleBody": "Frequently used commands to run your hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes to repositories.  Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.\nIf you have not already Hugo setup, go to my previous post found here\nRun Hugo locally Go to your blog directory, where the content is and run:\nhugo server\nAdd content (a new post) To add a new post, run:\nhugo new posts/intro-to-java-17.md\nThis will create a file intro-to-java-17.md in your post directory, having a menu.\n--- title: \"Intro to java 17\" date: 2021-11-25T08:09:22+02:00 draft: true defaultTheme: light ShowToc: true --- Here I also added:\ndefaultTheme: light //will show this page in light theme ShowToc: true //will show a Table of content (every headline will be added in the Toc)\nAdd a menu I choose to manually add the menu in the config.yml file something like this:\nmenu: main: - identifier: about name: About title: About me url: /about/ weight: -100 - identifier: archives name: Archive title: blog section url: /archives/ weight: -300 - identifier: Categories name: Categories title: Categories url: /categories/ weight: -200 There are many ways you can add a menu, read more about it here\nAdding a categories and labels to your posts In Hugo this is the chapter about taxanomies, in other words how to group and order your content.\nRead more on hugo site about taxanomies.\n1. How to add taxanomies (categories and tags) There are two taxanomies that Hugo will automatically create for you, namely categories and tags. So there is no need to add these in the config.yml. I did it anyway, just to show that these are my taxanomies\nand to make it easier to add others later, so in my config.yml I added:\ntaxonomies: category: categories tag: tags 2. How to add category and tags to a post For example, this post has the category=development and two tags, blogging and hugo. This was added like this:\n--- title: \"Working with hugo\" date: 2021-11-25T08:09:22+02:00 draft: false categories: [development] tags: [blogging,hugo] ShowToc: true --- This will show up in the /categories. Which was also added to the menu.\nConfig file setup example This is an example of the config.yml, this one is pretty much copied from the PaperMod example and modified to fit my page:\nbaseURL: https://ljungbladsolutions.github.io/posts languageCode: en-us title: Ljungblad Solutions theme: PaperMod5 defaultTheme: light menu: main: - identifier: about name: About title: About me url: /about/ weight: -100 - identifier: archives name: Archive title: blog section url: /archives/ weight: -300 - identifier: Categories name: Categories title: Categories url: /categories/ weight: -200 params: env: production # to enable google analytics, opengraph, twitter-cards and schema. description: \"A blog about Software development, architecture and other things.\" author: Christopher Ljungblad defaultTheme: auto # disableThemeToggle: true ShowShareButtons: true ShowReadingTime: true # disableSpecial1stPost: true displayFullLangName: true ShowPostNavLinks: true ShowBreadCrumbs: true ShowCodeCopyButtons: true ShowToc: true #Show table of content # comments: false images: [\"papermod-cover.png\"] profileMode: enabled: true title: Christopher Ljungblad imageUrl: \"/images/christopher.png\" imageTitle: my image # imageWidth: 120 # imageHeight: 120 buttons: - name: Archive url: archives - name: Categories url: categories homeInfoParams: Title: \"Christopher Ljungblad\" Content: socialIcons: - name: github url: \"https://github.com/ljungbladsolutions/\" - name: LinkedIn url: \"https://www.linkedin.com/in/ljungblad/\" taxonomies: tag: \"tags\" category: \"categories\" Add raw html to your post Sometimes it’s necessary to use html. This can be done using the {{}}, for example:\n{{}} This is my html {{}} For this to work, there has to be a file:\nlayouts/shortcodes/rawhtml.html containing:\n{{ .Inner }} Example page for this theme Here is an example for this theme, find inspiration here on gitHub.\nReferences:\nhttps://gohugo.io/templates/homepage/\nhttps://guides.github.com/features/mastering-markdown/\nhttps://gohugo.io/getting-started/configuration/\n",
+  "wordCount" : "626",
   "inLanguage": "en",
   "datePublished": "2021-11-25T08:09:22+02:00",
   "dateModified": "2021-11-25T08:09:22+02:00",
@@ -249,6 +237,7 @@ November 25, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Christopher Ljungblad
         <div class="details">Table of Contents</div>
       </summary>
       <div class="inner"><ul><li>
+        <a href="#frequently-used-commands-to-run-your-hugo-site" aria-label="Frequently used commands to run your hugo site">Frequently used commands to run your hugo site</a></li><li>
         <a href="#setup-hugo-blog" aria-label="Setup Hugo blog">Setup Hugo blog</a><ul>
             <li>
         <a href="#run-hugo-locally" aria-label="Run Hugo locally">Run Hugo locally</a></li><li>
@@ -267,6 +256,12 @@ November 25, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Christopher Ljungblad
     </details>
   </div>
   <div class="post-content">
+<h2 id="frequently-used-commands-to-run-your-hugo-site">Frequently used commands to run your hugo site<a hidden class="anchor" aria-hidden="true" href="#frequently-used-commands-to-run-your-hugo-site">#</a></h2>
+<ul>
+<li><code>hugo server</code> To run hugo locally.</li>
+<li><code>hugo -t PaperMod5</code> To build changes to the public folder.</li>
+<li>Commit and push changes to repositories.</li>
+</ul>
 <h2 id="setup-hugo-blog">Setup Hugo blog<a hidden class="anchor" aria-hidden="true" href="#setup-hugo-blog">#</a></h2>
 <p>This post will give an intro how to get started editing a Hugo Site.<br>
 If you have not already Hugo setup, go to my previous post found <a href="/posts/hosting-hugo-blog">here</a></p>
@@ -419,6 +414,11 @@ taxonomies:
       <li><a href="https://ljungbladsolutions.github.io/tags/hugo/">hugo</a></li>
     </ul>
     <nav class="paginav">
+      <a class="prev" href="https://ljungbladsolutions.github.io/posts/be-efficient-with-bookmarks/">
+        <span class="title">« Prev Page</span>
+        <br>
+        <span>Be Efficient With Chrome Bookmarks</span>
+      </a>
       <a class="next" href="https://ljungbladsolutions.github.io/posts/hosting-hugo-blog/">
         <span class="title">Next Page »</span>
         <br>
