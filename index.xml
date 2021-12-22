@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 08:11:40 +0200</lastBuildDate><atom:link href="https://ljungbladsolutions.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 14:10:15 +0100</lastBuildDate><atom:link href="https://ljungbladsolutions.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Measure and Improve Site Performance</title>
+      <link>https://ljungbladsolutions.github.io/posts/improve-site-performance/</link>
+      <pubDate>Wed, 22 Dec 2021 14:10:15 +0100</pubDate>
+      
+      <guid>https://ljungbladsolutions.github.io/posts/improve-site-performance/</guid>
+      <description>Improve site performance To find out how your site perform, use Google Page Speed Insight.
+The result will give you many hints on what to do to improve performance. But this post will only talk about how to improve page speed by compressing images, since this is a common issue. Other things could be to cache .js files and stylesheets.
+This is the result of the first page of this blog, it&amp;rsquo;s 100% :).</description>
+    </item>
+    
     <item>
       <title>Be Efficient With Chrome Bookmarks</title>
       <link>https://ljungbladsolutions.github.io/posts/be-efficient-with-bookmarks/</link>

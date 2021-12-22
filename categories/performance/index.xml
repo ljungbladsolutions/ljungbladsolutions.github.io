@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>performance on Ljungblad Solutions</title>
+    <link>https://ljungbladsolutions.github.io/categories/performance/</link>
+    <description>Recent content in performance on Ljungblad Solutions</description>
+    <image>
+      <url>https://ljungbladsolutions.github.io/papermod-cover.png</url>
+      <link>https://ljungbladsolutions.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Dec 2021 14:10:15 +0100</lastBuildDate><atom:link href="https://ljungbladsolutions.github.io/categories/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Measure and Improve Site Performance</title>
+      <link>https://ljungbladsolutions.github.io/posts/improve-site-performance/</link>
+      <pubDate>Wed, 22 Dec 2021 14:10:15 +0100</pubDate>
+      
+      <guid>https://ljungbladsolutions.github.io/posts/improve-site-performance/</guid>
+      <description>Improve site performance To find out how your site perform, use Google Page Speed Insight.
+The result will give you many hints on what to do to improve performance. But this post will only talk about how to improve page speed by compressing images, since this is a common issue. Other things could be to cache .js files and stylesheets.
+This is the result of the first page of this blog, it&amp;rsquo;s 100% :).</description>
+    </item>
+    
+  </channel>
+</rss>
