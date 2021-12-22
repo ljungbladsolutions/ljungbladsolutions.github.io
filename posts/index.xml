@@ -28,9 +28,9 @@ Here are some tips on how you can increase your productivity using your chrome b
       <pubDate>Thu, 25 Nov 2021 08:09:22 +0200</pubDate>
       
       <guid>https://ljungbladsolutions.github.io/posts/editing-hugo-blog/</guid>
-      <description>Frequently used commands to run your hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes to repositories.  Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
+      <description>Setup Hugo blog This post will give an intro how to get started editing a Hugo Site.
 If you have not already Hugo setup, go to my previous post found here
-Run Hugo locally Go to your blog directory, where the content is and run:</description>
+Frequently used commands to run a Hugo site  hugo server To run hugo locally. hugo -t PaperMod5 To build changes to the public folder. Commit and push changes of content. Commit and push public folder to deploy changes.  Run Hugo locally Go to your blog directory, where the content is and run:</description>
     </item>
     
     <item>
